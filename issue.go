@@ -1,10 +1,5 @@
 package jiralib
 
-import (
-  "time"
-)
-
-
 type IssueStruct struct {
   Self string `json:"self"`
   Id int `json:"id"`
