@@ -1,9 +1,5 @@
 package jiralib
 
-import (
-  "time"
-)
-
 type JiraUser struct {
   Self string `json:"self"`
   Name string `json:"name"`
