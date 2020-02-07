@@ -20,7 +20,7 @@ type IssueFields struct {
   AggregateTimespent string `json:"aggregatetimespent"`
   Resolution string `json:"resolution"`
   ResolutionDate string `json:"resolutiondate"`
-  Created time.Time `json:"created"`
+  Created int `json:"created"`
   Priority PriorityStruct `json:"priority"`
   Creator JiraUser `json:"creator"`
   Reporter JiraUser `json:"reporter"`
