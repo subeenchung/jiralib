@@ -2,7 +2,7 @@ package jiralib
 
 type IssueStruct struct {
   Self string `json:"self"`
-  Id int `json:"id"`
+  Id string `json:"id"`
   Key string `json:"key"`
   Fields IssueFields `json:"fields"`
 }
@@ -31,12 +31,12 @@ type PriorityStruct struct {
   Self string `json:"self"`
   IconUrl string `json:"iconUrl"`
   Name string `json:name"`
-  Id int `json:"id"`
+  Id string `json:"id"`
 }
 
 type ProjectStruct struct {
   Self string `json:"self"`
-  Id int `json:"id"`
+  Id string `json:"id"`
   Key string `json:"key"`
   Name string `json:"name"`
   ProjectTypeKey string `json:"projectTypeKey"`
@@ -45,7 +45,7 @@ type ProjectStruct struct {
 
 type IssueTypeStruct struct {
   Self string `json:"self"`
-  Id int `json:"id"`
+  Id string `json:"id"`
   Desc string `json:"Description"`
   IconUrl string `json:"iconUrl"`
   Name string `json:"name"`
