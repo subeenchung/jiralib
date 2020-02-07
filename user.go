@@ -12,7 +12,7 @@ type JiraUser struct {
   Avatar AvatarUrlsStruct `json:"avatarUrls"`
   DisplayName string `json:"displayName"`
   Active bool `json:"active"`
-  TZ time.Location `json:"timeZone"`
+  TZraw string `json:"timeZone"`
 }
 
 //AvatarUrls struct is for user avatar url location per size
